@@ -2,26 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
-    <link rel="stylesheet" href="./task1.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+  <!-- <link rel="stylesheet" href="./task1.css"> -->
+  <style>
+   /* In 1 box containg 4 boxes css code */
+    .wrapper {
+      height: 900px;
+      width: 1200px;
+      background-color: brown;
+      margin: 1rem;
+      position: relative;
+    }
 
+    .box1 {
+      height:200px;
+      width:200px;
+      background-color: blue;
+      position: absolute;
+      top: 350px;
+      right:500px;
+
+
+    }
+
+    .box2 {
+      height: 100px;
+      width: 100px;
+      background-color: rgb(59, 163, 177);
+      position: absolute;
+      top: 330px;
+      right: 470px;
+    }
+
+    .box3 {
+      height: 100px;
+      width: 100px;
+      background-color: rgb(9, 151, 28);
+      position: absolute;
+      top:470px;
+      right: 470px;
+    }
+
+    .box4 {
+      height: 100px;
+      width: 100px;
+      background-color: rgb(204, 216, 41);
+      position: absolute;
+      top: 330px;
+      left: 470px;
+    }
+    .box5{
+      height:100px ;
+      width: 100px;
+      background-color: rgb(218, 18, 101);
+      position: absolute;
+      top: 470px;
+      left: 470px;
+    }
+  </style>
 
 </head>
 
 <body>
-        <div id="box1">
+  <!--  <div id="box1">
 
         </div>
         <div id="box2">
 
-        </div>
+        </div> -->
+  <div class="wrapper">
+    <div class="box1">Home</div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+
+
 
 </body>
 
