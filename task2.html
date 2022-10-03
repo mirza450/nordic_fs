@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <style>
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        header a {
+            margin: 0 1rem;
+        }
+
+        main>section {
+            display: flex;
+            justify-content:flex-start;
+            height: 400px;
+            background-color: rgb(183, 240, 119);
+        }
+
+        main>section>.box {
+            height: 100px;
+            width: 150px;
+            background-color: rgb(46, 181, 243);
+            margin: 1rem;
+            flex-grow: 1;
+            flex-wrap: wrap;
+            flex-basis: 300px;
+        
+           
+        }
+        main>section>.box:nth-child(1) {
+            background-color:blue ;
+        }
+        main>section>.box:nth-child(2) {
+            flex-grow: 1;
+            background-color: red;
+        }
+        main>section>.box:nth-child(3) {
+            background-color: green;
+        }
+        main>section>.box:nth-child(4) {
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Logo</h1>
+        <nav>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Project</a>
+            <a href="">Blogs</a>
+            <a href="">Contact</a>
+        </nav>
+        <address>
+            <a href="mailto:mirzaalam450@gmai.com">mirzaalam450@gmail.com</a>
+        </address>
+    </header>
+    <main>
+        <section>
+
+
+            <div class="box">Item 1</div>
+            <div class="box">Item 2</div>
+            <div class="box">Item 3</div>
+            <div class="box">Item 4</div>
+
+
+
+        </section>
+    </main>
+
+
+</body>
+
+</html>

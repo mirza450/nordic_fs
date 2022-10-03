@@ -1,0 +1,15 @@
+.wrapper{
+    display: flex;
+   /*  background-color: rgb(223, 129, 22); */
+    flex-direction:row;
+    flex-wrap: wrap;
+  
+  
+}
+.box{
+    height: 100px;
+    width: 150px;
+    
+    background-color: rebeccapurple;
+    margin: 1rem;
+}
