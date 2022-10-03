@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    margin: 0 1rem;
+}
+#service >h1{
+    text-align: center;
+    margin: 5rem;
+}
+#service{
+    max-width: 1280px;
+    margin: 1rem;
+    display: flexbox;
+}
+#service>.service-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+   
+}
+#service>.service-wrapper>.box{
+    flex-grow:1;
+    flex-shrink:0;
+    flex-basis:576px;
+    border-radius:1.5rem;
+    overflow: hidden;
+    
+}
+#service>.service-wrapper>.box>img{
+    width: 100%;
+    border-radius: 1.5rem;
+}
