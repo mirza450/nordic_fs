@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: 200px auto;
+            grid-template-rows: 100px auto 100px;
+            height: 100vh;
+
+        }
+
+        header {
+            background-color: red;
+            grid-column: span 2;
+          
+        }
+        aside{
+            background-color: blue;
+
+        }
+        main{
+            background-color: green;
+        }
+        footer{
+            background-color: pink;
+            grid-column: span 2;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Header</h2>
+    </header>
+    <aside>
+        <h2>aside</h2>
+    </aside>
+    <main>
+        <h2>Main</h2>
+    </main>
+    <footer>
+        <h2>footer</h2>
+    </footer>
+</body>
+
+</html>

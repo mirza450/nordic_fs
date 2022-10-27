@@ -8,17 +8,15 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
   <style>
-  <!-- 
-   In 1 box containg 4 boxes css code  -->
-    .wrapper {
+  <!-- In 1 box containg 4 boxes using  css code  -->
+    #wrapper {
       height: 900px;
       width: 1200px;
-      background-color: brown;
       margin: 1rem;
       position: relative;
     }
 
-    .box1 {
+    #wrapper>.box1 {
       height:200px;
       width:200px;
       background-color: blue;
@@ -29,7 +27,7 @@
 
     }
 
-    .box2 {
+    #wrapper>.box2 {
       height: 100px;
       width: 100px;
       background-color: rgb(59, 163, 177);
@@ -38,7 +36,7 @@
       right: 470px;
     }
 
-    .box3 {
+    #wrapper>.box3 {
       height: 100px;
       width: 100px;
       background-color: rgb(9, 151, 28);
@@ -47,7 +45,7 @@
       right: 470px;
     }
 
-    .box4 {
+    #wrapper>.box4 {
       height: 100px;
       width: 100px;
       background-color: rgb(204, 216, 41);
@@ -55,7 +53,7 @@
       top: 330px;
       left: 470px;
     }
-    .box5{
+    #wrapper>.box5{
       height:100px ;
       width: 100px;
       background-color: rgb(218, 18, 101);
@@ -74,12 +72,13 @@
         <div id="box2">
 
         </div> -->
-  <div class="wrapper">
+  <div id="wrapper">
     <div class="box1">Home</div>
     <div class="box2"></div>
     <div class="box3"></div>
     <div class="box4"></div>
     <div class="box5"></div>
+  </div>
 
 
 </body>
